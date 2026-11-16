@@ -1,0 +1,193 @@
+/* ===========================
+   Google Font
+=========================== */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap');
+
+/* ===========================
+   General
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#f8f4ed;
+    color:#23324a;
+}
+
+.contact-section{
+    padding:90px 0;
+}
+
+/* ===========================
+   Left Side
+=========================== */
+
+.contact-tag{
+    font-size:14px;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    color:#d66a2b;
+    font-weight:600;
+}
+
+.contact-title{
+    font-family:'DM Serif Display',serif;
+    font-size:64px;
+    line-height:1.1;
+    color:#14253d;
+    margin-top:15px;
+    margin-bottom:55px;
+}
+
+.contact-info .d-flex{
+    align-items:flex-start;
+}
+
+.contact-info i{
+    color:#d66a2b;
+    font-size:28px;
+    margin-top:2px;
+}
+
+.contact-info div{
+    color:#4e5d78;
+    font-size:18px;
+    line-height:30px;
+}
+
+/* ===========================
+   Office Card
+=========================== */
+
+.office-card{
+    background:#fff;
+    border:1px solid #e4ddd5;
+    border-radius:8px;
+    padding:32px;
+    margin-top:45px;
+}
+
+.office-card h3{
+    font-family:'DM Serif Display',serif;
+    font-size:34px;
+    color:#14253d;
+    margin-bottom:18px;
+}
+
+.office-card p{
+    color:#5b6b84;
+    line-height:32px;
+    font-size:18px;
+    margin:0;
+}
+
+/* ===========================
+   Form
+=========================== */
+
+.contact-form{
+    background:#fff;
+    border:1px solid #e4ddd5;
+    border-radius:8px;
+    padding:35px;
+}
+
+.form-label{
+    font-weight:600;
+    color:#14253d;
+    margin-bottom:10px;
+}
+
+.form-control{
+    height:58px;
+    border-radius:6px;
+    border:1px solid #d7d7d7;
+    box-shadow:none;
+    font-size:17px;
+    color:#23324a;
+}
+
+textarea.form-control{
+    height:170px;
+    resize:none;
+    padding-top:15px;
+}
+
+.form-control:focus{
+    border-color:#d66a2b;
+    box-shadow:none;
+}
+
+/* ===========================
+   Button
+=========================== */
+
+.contact-btn{
+    background:#d66a2b;
+    color:#fff;
+    height:58px;
+    font-size:18px;
+    font-weight:600;
+    border:none;
+    border-radius:5px;
+    transition:.3s;
+}
+
+.contact-btn:hover{
+    background:#b9531c;
+    color:#fff;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width:992px){
+
+    .contact-title{
+        font-size:48px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .contact-section{
+        padding:60px 0;
+    }
+
+    .contact-title{
+        font-size:40px;
+        margin-bottom:35px;
+    }
+
+    .office-card{
+        margin-bottom:35px;
+    }
+
+    .contact-form{
+        padding:25px;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .contact-title{
+        font-size:34px;
+    }
+
+    .contact-info div{
+        font-size:16px;
+    }
+
+    .office-card h3{
+        font-size:28px;
+    }
+
+}
